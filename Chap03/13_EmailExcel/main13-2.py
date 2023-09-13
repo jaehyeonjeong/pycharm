@@ -13,6 +13,8 @@ no.kr
 
 results = re.findall(r'[\w\.-]+@[\w\.-]+', test_string)
 
+results = list(set(results))
+
 print(results)
 
-#이메일 형식을 추출하는 코드 만들기
+#리스트에서 중복 내용 제거하는 코드 만들기
