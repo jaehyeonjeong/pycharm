@@ -26,3 +26,5 @@ s.starttls()
 s.login(send_email, send_pwd)
 s.sendmail(send_email, recv_email, msg.as_string())
 s.quit()
+
+#구글 메일을 보내는 코드
